@@ -2,4 +2,3 @@ C:\temp\Exercisms\Bob.Library\bin\Debug\Bob.Library.dll
 C:\temp\Exercisms\Bob.Library\bin\Debug\Bob.Library.pdb
 C:\temp\Exercisms\Bob.Library\obj\Debug\Bob.Library.dll
 C:\temp\Exercisms\Bob.Library\obj\Debug\Bob.Library.pdb
-C:\temp\Exercisms\Bob.Library\obj\Debug\Bob.Library.csprojResolveAssemblyReference.cache

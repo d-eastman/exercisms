@@ -2,4 +2,3 @@ C:\temp\Exercisms\Leap.Library\bin\Debug\Leap.Library.dll
 C:\temp\Exercisms\Leap.Library\bin\Debug\Leap.Library.pdb
 C:\temp\Exercisms\Leap.Library\obj\Debug\Leap.Library.dll
 C:\temp\Exercisms\Leap.Library\obj\Debug\Leap.Library.pdb
-C:\temp\Exercisms\Leap.Library\obj\Debug\Leap.Library.csprojResolveAssemblyReference.cache
