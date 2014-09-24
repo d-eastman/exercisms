@@ -1,0 +1,9 @@
+C:\temp\Exercisms\Leap.Test\bin\Debug\Leap.Test.dll
+C:\temp\Exercisms\Leap.Test\bin\Debug\Leap.Test.pdb
+C:\temp\Exercisms\Leap.Test\bin\Debug\Leap.Library.dll
+C:\temp\Exercisms\Leap.Test\bin\Debug\nunit.framework.dll
+C:\temp\Exercisms\Leap.Test\bin\Debug\Leap.Library.pdb
+C:\temp\Exercisms\Leap.Test\bin\Debug\nunit.framework.xml
+C:\temp\Exercisms\Leap.Test\obj\Debug\Leap.Test.csprojResolveAssemblyReference.cache
+C:\temp\Exercisms\Leap.Test\obj\Debug\Leap.Test.dll
+C:\temp\Exercisms\Leap.Test\obj\Debug\Leap.Test.pdb
