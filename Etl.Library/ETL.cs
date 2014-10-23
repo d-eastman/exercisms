@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Etl.Library
 {
@@ -14,7 +12,7 @@ namespace Etl.Library
         /// <summary>
         /// Transform old system of scrabble score data structure into new system data structure.
         /// 
-        /// The old system stored a list of letters per score:
+        /// The old system stored a list of letters per score, for example:
         ///     - 1 point: "A", "E", "I", "O", "U", "L", "N", "R", "S", "T",
         ///     - 2 points: "D", "G",
         ///     - 3 points: "B", "C", "M", "P",
