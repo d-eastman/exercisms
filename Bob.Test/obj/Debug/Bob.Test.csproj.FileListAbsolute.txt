@@ -1,0 +1,9 @@
+C:\exercism\Exercisms\Bob.Test\bin\Debug\Bob.Test.dll
+C:\exercism\Exercisms\Bob.Test\bin\Debug\Bob.Test.pdb
+C:\exercism\Exercisms\Bob.Test\bin\Debug\Bob.Library.dll
+C:\exercism\Exercisms\Bob.Test\bin\Debug\nunit.framework.dll
+C:\exercism\Exercisms\Bob.Test\bin\Debug\Bob.Library.pdb
+C:\exercism\Exercisms\Bob.Test\bin\Debug\nunit.framework.xml
+C:\exercism\Exercisms\Bob.Test\obj\Debug\Bob.Test.csprojResolveAssemblyReference.cache
+C:\exercism\Exercisms\Bob.Test\obj\Debug\Bob.Test.dll
+C:\exercism\Exercisms\Bob.Test\obj\Debug\Bob.Test.pdb
