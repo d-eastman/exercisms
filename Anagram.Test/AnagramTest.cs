@@ -87,5 +87,13 @@ namespace Anagram.Test
             var results = new[] { "Carthorse" };
             Assert.That(detector.Match(words), Is.EqualTo(results));
         }
+
+        [Test]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Fail_if_whitespace()
+        {
+            var detector = new AL.Anagram("  ");
+        }
+
     }
 }
