@@ -1,0 +1,7 @@
+﻿I chose to implement this all in one class exposing only the constructor and Match method for maximum hiding of internals.  
+I originally wrote a custom class descending from Dictionary<char, int> with an Equals override method to compare the keys 
+and values of the dictionaries, but elected the one class approach for simplicity.  I added a couple of features that were 
+not explicitly called for: (1) throw an ArgumentException from within the constructor if the input word string is null, 
+empty or whitespace, (2) sort the Match method output (a few of the test cases fail otherwise).  I was tempted to add code 
+to filter out duplicate matching anagrams but ended up leaving that out.  In general, I tried to limit looping by using 
+LINQ and enumeration.

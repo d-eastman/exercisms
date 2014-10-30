@@ -11,12 +11,14 @@ namespace Anagram.Client
     {
         static void Main(string[] args)
         {
-            //AL.Anagram a = new AL.Anagram("word");
-            //var b = a.Match(new[] { "word", "drow", "xyz" });
+            AL.Anagram a = new AL.Anagram("word");
+            var b = a.Match(new[] { "word", "drow", "xyz"});
 
             var detector = new AL.Anagram("master");
             var words = new[] { "stream", "pigeon", "maters" };
             var results = detector.Match(words);
+
+            AL.Anagram bad = new AL.Anagram("  "); //Exception causing
 
         }
     }
