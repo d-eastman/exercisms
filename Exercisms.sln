@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming.Library", "Hamming.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming.Test", "Hamming.Test\Hamming.Test.csproj", "{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount.Library", "WordCount.Library\WordCount.Library.csproj", "{99A1A5BD-0C1B-47E6-A9EB-129C785A3052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount.Test", "WordCount.Test\WordCount.Test.csproj", "{618791F2-9682-4D18-A3E0-1B41FC052FA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A1A5BD-0C1B-47E6-A9EB-129C785A3052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A1A5BD-0C1B-47E6-A9EB-129C785A3052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A1A5BD-0C1B-47E6-A9EB-129C785A3052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A1A5BD-0C1B-47E6-A9EB-129C785A3052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618791F2-9682-4D18-A3E0-1B41FC052FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618791F2-9682-4D18-A3E0-1B41FC052FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618791F2-9682-4D18-A3E0-1B41FC052FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618791F2-9682-4D18-A3E0-1B41FC052FA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
