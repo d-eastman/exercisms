@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming.Library", "Hamming.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming.Test", "Hamming.Test\Hamming.Test.csproj", "{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming.Client", "Hamming.Client\Hamming.Client.csproj", "{2207B21D-96BF-459B-AEE6-D73E9B177550}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D341E8-6DE9-474F-A50B-062AEA5B3DCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2207B21D-96BF-459B-AEE6-D73E9B177550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2207B21D-96BF-459B-AEE6-D73E9B177550}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2207B21D-96BF-459B-AEE6-D73E9B177550}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2207B21D-96BF-459B-AEE6-D73E9B177550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
