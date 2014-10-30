@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap.Library", "Leap.Library\Leap.Library.csproj", "{7EE835D2-089D-4EFC-AF2C-DD6A6BC069DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap.Test", "Leap.Test\Leap.Test.csproj", "{D06C53DF-20E2-486C-A53A-3234CD10FE7E}"
@@ -12,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.Library", "Etl.Library\Etl.Library.csproj", "{9D68C02F-2516-45E4-A7FB-B8565AFBEB50}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.Test", "Etl.Test\Etl.Test.csproj", "{D44832DC-3F70-4FEB-8499-7FF205D14A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram.Library", "Anagram\Anagram.Library.csproj", "{1D84BF41-EA14-46F0-B7F7-C659F7DC4DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram.Test", "Anagram.Test\Anagram.Test.csproj", "{9DA60B00-4A86-438E-AE87-D6AC96306AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram.Client", "Anagram.Client\Anagram.Client.csproj", "{68492A17-BC24-4844-A675-8AD35588EBF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,18 @@ Global
 		{D44832DC-3F70-4FEB-8499-7FF205D14A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44832DC-3F70-4FEB-8499-7FF205D14A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44832DC-3F70-4FEB-8499-7FF205D14A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D84BF41-EA14-46F0-B7F7-C659F7DC4DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D84BF41-EA14-46F0-B7F7-C659F7DC4DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D84BF41-EA14-46F0-B7F7-C659F7DC4DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D84BF41-EA14-46F0-B7F7-C659F7DC4DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA60B00-4A86-438E-AE87-D6AC96306AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA60B00-4A86-438E-AE87-D6AC96306AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA60B00-4A86-438E-AE87-D6AC96306AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA60B00-4A86-438E-AE87-D6AC96306AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68492A17-BC24-4844-A675-8AD35588EBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68492A17-BC24-4844-A675-8AD35588EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68492A17-BC24-4844-A675-8AD35588EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68492A17-BC24-4844-A675-8AD35588EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
