@@ -84,6 +84,37 @@ public class GradeSchoolTest
         Assert.That(school.Roster[2], Is.EqualTo(expected));
     }
 
+    [Test]
+    public void Mutate_List_Add_Name_Manually()
+    {
+        school.Add("Jennifer", 3);
+        school.Roster[3].Add("James"); //This doesn't modify the internal data, only the copy
+        Assert.That(school.Grade(3), Is.EqualTo(new List<string> { "Jennifer" }));
+    }
     
+    [Test]
+    public void Mutate_List_Change_Name_Manually_Thru_Roster()
+    {
+        school.Add("Jennifer", 3);
+        school.Roster[3][0] = "Jane"; //This doesn't modify the internal data, only the copy
+        Assert.That(school.Grade(3), Is.EqualTo(new List<string> { "Jennifer" }));
+    }
 
+    [Test]
+    public void Mutate_List_Change_Name_Manually_Thru_Grade()
+    {
+        school.Add("Jennifer", 3);
+        school.Grade(3)[0] = "Jane"; //This doesn't modify the internal data, only the copy
+        Assert.That(school.Grade(3), Is.EqualTo(new List<string> { "Jennifer" }));
+    }
+
+    [Test]
+    public void Mutate_List_Repoint_Roster_Array()
+    {
+        school.Add("Jennifer", 3);
+        school.Add("James", 4);
+        school.Roster[3] = school.Roster[4]; //This doesn't modify the internal data, only the copy
+        Assert.That(school.Grade(3), Is.EqualTo(new List<string> { "Jennifer" }));
+        Assert.That(school.Grade(4), Is.EqualTo(new List<string> { "James" }));
+    }
 }
