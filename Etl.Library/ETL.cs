@@ -37,6 +37,12 @@ namespace Etl.Library
         /// <returns>New representation of input data</returns>
         public static Dictionary<string, int> Transform(Dictionary<int, IList<string>> incomingData)
         {
+            return incomingData.SelectMany(a => a.Value.SelectMany(b => b.Select(c => new { intKey = a.Key, strValue = b.ToLower() })))
+                .ToDictionary(d => d.strValue, d => d.intKey);
+        }
+
+        public static Dictionary<string, int> Transform1(Dictionary<int, IList<string>> incomingData)
+        {
             //Create return object
             Dictionary<string, int> ret = new Dictionary<string, int>();
 
