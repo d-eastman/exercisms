@@ -1,4 +1,4 @@
 Exercisms
 =========
 
-exercism.io code
+My own exercism.io code
